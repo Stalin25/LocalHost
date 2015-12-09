@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<eval=true>>=
+
+\begin{table}[htbp]
+  \centering
+  \caption{Add caption}
+    \begin{tabular}{rcccc}
+    \toprule
+    7.5 Cierre &       & x     &       &  \\
+    \midrule
+    7.6 Medición de la Ingeniería de Software &       & x     &       &  \\
+    7.7 Herramientas Administrativas de Ingeniería de Software &       & x     &       &  \\
+    \textbf{} &       &       &       &  \\
+    \textbf{8. Proceso de la Ingeniería del Software} &       &       &       &  \\
+    8.1 Definición de Procesos de Software &       & x     &       &  \\
+    8.2 Ciclos de Vida de Software &       & x     &       &  \\
+    8.3 Evaluación y Mejora de Procesos de Software &       & x     &       &  \\
+    8.4 Medición de Software &       & x     &       &  \\
+    8.5 Herramientas de Proceso de la Ingeniería de Software &       & x     &       &  \\
+    \textbf{} &       &       &       &  \\
+    \textbf{9. Instrumentos y Métodos de la Ingeniería del Software} &       &       &       &  \\
+    9.1 Modelado & x     &       &       & 31 \\
+    9.2 Tipos de Modelos & x     &       &       & 31 \\
+    9.3 Análisis de Modelos &       & x     &       &  \\
+    9.4 Métodos de Ingeniería de Software &       & x     &       &  \\
+    \textbf{} &       &       &       &  \\
+    \textbf{10. Calidad del Software} &       &       &       &  
+    10.1 Fundamentos de Calidad De software &       &       & x     & 69 
+    10.2 Procecos de Gestión de la Calidad de Software &       & x     &       &  \\
+    10.3 Consideraciones Prácticas &       & x     &       &  \\
+    10.4 Herramientas de Calidad de Software  &       & x     &       &  \\
+    \bottomrule
+    \end{tabular}
+  \label{tab:addlabel}
+\end{table}
+@
+\end{document}
